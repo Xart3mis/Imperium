@@ -1,0 +1,59 @@
+name: smart_rgb
+description: controller application for smart rgb led strip
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_fonts:
+  cupertino_icons: ^1.0.2
+  flex_color_scheme: ^7.0.4
+  shared_preferences: ^2.1.0
+  ms_undraw: ^3.1.0+3
+  get: ^4.6.5
+  permission_handler: ^9.2.0
+  network_info_plus: ^4.0.0
+  esptouch_flutter: ^1.1.0-androidv2
+  connectivity_plus: ^4.0.0
+  multicast_dns: ^0.3.2+3
+  nsd: ^2.3.1
+  onboarding: ^3.1.0
+  flex_color_picker: ^3.2.2
+  http: ^0.13.6
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/icon.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "images/icon.png"
+    background_color: "#0B0B13"
+    theme_color: "#0B0B13"
+  windows:
+    generate: true
+    image_path: "images/icon.png"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "images/icon.png"
+flutter:
+  uses-material-design: true
+  assets:
+    - images/icon_transparent.png
+    - images/control.png
+    - images/control_inverted.png
